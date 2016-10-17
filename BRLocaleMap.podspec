@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   
   s.author       = { "b123400" => "b123400@gmail.com" }
 
-  s.ios.platform = :ios, "5.0"
-  s.osx.platform = :osx, "10.6"
+  s.ios.deployment_target = "5.0"
+  s.osx.deployment_target = "10.6"
 
   s.source       = { :git => "https://github.com/b123400/BRLocaleMap.git", :submodules => true, :tag => "1.0.1" }
 
